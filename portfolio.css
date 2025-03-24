@@ -1,0 +1,88 @@
+#about {
+    background-color: #112e42;
+    color: #ffffff;
+}
+
+#skills {
+    background-color:#081b29;
+    color: #ffffff;
+}
+
+#skills .btn-info {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#skills .btn-info:hover {
+    transform: scale(1.1);
+    background-color: #017db5; 
+}
+
+#portfolio {
+    background-color: #112e42;
+    color: #ffffff;
+}
+
+#portfolio .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#portfolio .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#contact {
+    background-color: #213d4f; 
+    height: 90vh;
+    color: #ffffff;
+}
+
+#contact a {
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+#contact a:hover {
+    transform: scale(1.2);
+}
+
+.navbar-shadow {
+    box-shadow: 0 4px 8px rgba(3, 249, 200, 0.8);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+section {
+    transition: all 0.5s ease;
+}
+
+.col-md-3:hover i {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.typewriter {
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    border-right: 2px solid #ffcc00;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(25) 1s forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
